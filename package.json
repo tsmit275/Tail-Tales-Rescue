@@ -1,0 +1,16 @@
+{
+  "name": "tail-tales-rescue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "concurrently \"cd backend && nodemon server.js\" \"cd frontend && npm start\"",
+    "install": "cd backend && npm i && cd .. && cd frontend && npm i"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
