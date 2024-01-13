@@ -46,11 +46,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <h1 className="store-name">Tail Tales Rescue</h1>
         <nav>
           <ul className="nav-links">
-            <li><img className="wagging-tails" src="https://www.kindpng.com/picc/m/650-6502332_dog-tails-wagging-cartoon-hd-png-download.png" /></li>
+            <li><img className="wagging-tails" src="https://www.kindpng.com/picc/m/650-6502332_dog-tails-wagging-cartoon-hd-png-download.png" alt="keep tails wagging"/></li>
             <li><a href="/">Home</a></li>
             <li><a href="/animals">Animals</a></li>
             <li><a href="/adopt">Adopt</a></li>
             <li><a href="/volunteer">Volunteer</a></li>
+            <button className="btn btn-primary">Log In</button>
           </ul>
       </nav>
     </header>
