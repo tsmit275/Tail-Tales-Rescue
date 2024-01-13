@@ -3,7 +3,7 @@
 function Volunteer(){
     return(
             <main className="container">
-            <h1>Volunteer Inquiry</h1>
+            <h2>Volunteer Inquiry</h2>
             <p>We greatly appreciate all the animal lovers who have given their time to help. Let us know you're interested in helping our animals find FURever homes.</p>
             <form method="POST" action="/volunteers">
                 <div className="row">
