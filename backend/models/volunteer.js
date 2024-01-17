@@ -24,3 +24,12 @@ module.exports = (sequelize) => {
 
     return Volunteer;
 };
+
+//mysql, mariadb, MSSQL, Oracle etc etc
+//connection string - localhost....
+//port - 3306
+//username - 
+//password - 
+// database name
+//syntax
+//
