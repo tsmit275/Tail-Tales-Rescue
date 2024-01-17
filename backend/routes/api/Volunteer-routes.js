@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const db = require('../../models');
-const volunteer = db.volunteer;
+const Volunteer = db.volunteer;
 
 router.get('/', async (req,res)=>{
     const allVolunteer = await db.allVolunteer.findAll();
