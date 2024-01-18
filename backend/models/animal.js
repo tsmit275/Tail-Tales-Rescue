@@ -27,7 +27,54 @@ module.exports = (sequelize) => {
             type: DataTypes.STRING,
             allowNull: false,
         },
+        picture04: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture05: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture06: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture07: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture08: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture09: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture10: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        picture11: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+
+        picture11: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        
+        picture12: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+
         description: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        Email: {
             type: DataTypes.TEXT,
             allowNull: false,
         },

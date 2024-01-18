@@ -16,7 +16,15 @@ module.exports = (sequelize) => {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        reason: {
+        aboutYou: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        EmailAdress: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        PhoneNumber: {
             type: DataTypes.TEXT,
             allowNull: false,
         },
