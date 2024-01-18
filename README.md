@@ -8,7 +8,7 @@ If you are interested in volunteering to help our animals and keep our mission g
 
 WHAT WE STILL NEED TO ACCOMPLISH
 Animals page
-gallery style tiles for all animals w/ link to individual pet page
+gallery style cards for all animals w/ link to individual pet page
 search/filter function
 
 Pet page
