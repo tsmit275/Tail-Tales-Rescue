@@ -8,13 +8,13 @@ function Adopt(){
             <form method="POST" action="/volunteers">
                 <div className="row">
                     <div className="form-group col-sm-4">
-                        <label htmlFor="first-name" className="form-label">First Name:</label>
-                        <input className="form-control" type="text" id="first-name" name="first-name" required/>
+                        <label htmlFor="firstName" className="form-label">First Name:</label>
+                        <input className="form-control" type="text" id="firstName" name="first-name" required/>
                     </div>
 
                     <div className="form-group col-sm-4">
-                        <label htmlFor="last-name" className="form-label">Last Name:</label>
-                        <input className="form-control" type="number" id="last-name" name="last-name" required/>
+                        <label htmlFor="lastName" className="form-label">Last Name:</label>
+                        <input className="form-control" type="number" id="lastName" name="last-name" required/>
                     </div>
                 </div>
 
@@ -27,8 +27,8 @@ function Adopt(){
 
                 <div>
                     <div className="form-group col-sm-6">
-                        <label htmlFor="phone-number" className="form-label">Phone Number:</label>
-                        <input className="form-control" type="number" id="phone-number" name="phone-number"/>
+                        <label htmlFor="phoneNumber" className="form-label">Phone Number:</label>
+                        <input className="form-control" type="number" id="phoneNumber" name="phone-number"/>
                     </div>
                 </div>
 
