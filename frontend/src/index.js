@@ -51,7 +51,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <li><a href="/animals">Animals</a></li>
             <li><a href="/adopt">Adopt</a></li>
             <li><a href="/volunteer">Volunteer</a></li>
-            <button className="btn btn-primary">Log In</button>
+            <li><a href="/contact">Contact Us</a></li>
+            {/* <button className="btn btn-primary">Log In</button> */}
           </ul>
       </nav>
     </header>
