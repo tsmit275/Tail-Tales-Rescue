@@ -21,4 +21,14 @@ module.exports = router;
     Not going to do a post from the frontend
     You should be doing a fetch operation or using axios
     and handling successful responses on the frontend
+
+
+    You want to do this on the parent level
+    above backend/frontend
+
+    git add .
+    git commit -m "Some words for the commit - example"
+    git push
+
+
 */
