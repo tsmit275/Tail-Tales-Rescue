@@ -25,3 +25,5 @@ static navigation
 Mel:
 postgres set up
 (Freda deploy)
+
+Look up MULTER for pulling pdf and img files from forms.
