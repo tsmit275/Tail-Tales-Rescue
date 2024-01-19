@@ -2,8 +2,11 @@ const router = require('express').Router();
 
 const adoptionRoutes = require('./adoption-routes');
 const animalsRoutes = require('./animal-routes');
+const volunteerRoutes = require('./volunteer-routes');
+
 router.use('/animals', animalsRoutes);
-router.use('/adoption', adoptionRoutes)
+router.use('/adoption', adoptionRoutes);
+router.use('/volunteer', volunteerRoutes);
 
 module.exports = router;
 
