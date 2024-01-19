@@ -1,4 +1,4 @@
-// This page is the "gallery" page showing all adoptable animals.
+
 import { useEffect, useState } from 'react';
 
 const Animals = ({ animal = '' }) => {
@@ -27,3 +27,4 @@ const Animals = ({ animal = '' }) => {
 }
 
 export default Animals;
+

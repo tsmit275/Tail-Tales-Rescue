@@ -60,21 +60,15 @@ module.exports = (sequelize) => {
             allowNull: false,
         },
 
-        picture11: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        
         picture12: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-
-        description: {
-            type: DataTypes.TEXT,
+        gender: {
+            type: DataTypes.STRING,
             allowNull: false,
         },
-        Email: {
+        email: {
             type: DataTypes.TEXT,
             allowNull: false,
         },

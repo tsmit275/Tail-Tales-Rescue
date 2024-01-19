@@ -1,3 +1,4 @@
+
 // This page will show individual animal listings with more detail.
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -37,3 +38,4 @@ const Pet = () => {
 }
 
 export default Pet
+
