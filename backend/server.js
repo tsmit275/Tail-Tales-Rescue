@@ -14,7 +14,7 @@ db.sequelize.sync({ force: true}).then(() => {
         origin: `http://localhost:${PORT}`,
     }
 
-    app.use(cors(corsOptions));
+    app.use(cors());
 
     // parse requests of content-type - application/json
     app.use(bodyParser.json());
