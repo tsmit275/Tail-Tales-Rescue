@@ -1,1 +1,0 @@
-// This page will show individual animal listings with more detail.
