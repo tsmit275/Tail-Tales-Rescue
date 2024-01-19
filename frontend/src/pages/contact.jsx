@@ -14,7 +14,7 @@ function Contact(){
 
                     <div className="form-group col-sm-4">
                         <label htmlFor="lastName" className="form-label">Last Name:</label>
-                        <input className="form-control" type="number" id="lastName" name="last-name"/>
+                        <input className="form-control" type="text" id="lastName" name="last-name"/>
                     </div>
                 </div>
 

@@ -14,6 +14,7 @@ import Volunteer from "./pages/volunteer";
 import Adopt from "./pages/adopt";
 import Animals from "./pages/animals";
 import Contact from "./pages/contact";
+import Pet from "./pages/pet";
 // must write import for each page linked
 // must create browser router for each page (below)
 
@@ -35,6 +36,22 @@ const router = createBrowserRouter([
     element: <Animals/>,
   },
   {
+    path: "/animals/dogs",
+    element: <Animals animals="dogs"/>,
+  },
+  {
+    path: "/animals/cats",
+    element: <Animals animals="cats"/>,
+  },
+  {
+    path: "/animals/exotics",
+    element: <Animals animals="exotics"/>,
+  },
+  {
+    path: "/animals/:id",
+    element: <Pet />,
+  },
+  {
     path: "/contact",
     element: <Contact/>,
   },
@@ -45,7 +62,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <header>
         <h1 className="store-name">Tail Tales Rescue</h1>
         <nav>
-          <ul className="nav-links">
+          <ul>
             <li><img className="wagging-tails" src="https://www.kindpng.com/picc/m/650-6502332_dog-tails-wagging-cartoon-hd-png-download.png" alt="keep tails wagging"/></li>
             <li><a href="/">Home</a></li>
             <li><a href="/animals">Animals</a></li>
