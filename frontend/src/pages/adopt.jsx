@@ -49,7 +49,7 @@ function Adopt(){
             exotic
         }
 
-        fetch('http://localhost:3001/api/adoption/',{
+        fetch('https://temptails.onrender.com/api/adoption/',{
             method: 'POST',
             headers: {
                 Accept: 'application.json',
