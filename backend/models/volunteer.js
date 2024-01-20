@@ -20,24 +20,15 @@ module.exports = (sequelize) => {
             type: DataTypes.TEXT,
             allowNull: false,
         },
-        EmailAdress: {
-            type: DataTypes.TEXT,
+        phoneNumber: {
+            type: DataTypes.STRING,
             allowNull: false,
         },
-        PhoneNumber: {
-            type: DataTypes.TEXT,
+        email: {
+            type: DataTypes.STRING,
             allowNull: false,
         },
     });
 
     return Volunteer;
 };
-
-//mysql, mariadb, MSSQL, Oracle etc etc
-//connection string - localhost....
-//port - 3306
-//username - 
-//password - 
-// database name
-//syntax
-//

@@ -1,10 +1,10 @@
 const router = require('express').Router();
 const db = require('../../models');
-const Volunteer = db.volunteer;
+const Contact = db.contact;
 
 router.post('/', async (req,res)=>{
-    const newVolunteer = await Volunteer.create(req.body)
-    return res.status(200).send(newVolunteer);
+    const newContact = await Contact.create(req.body)
+    return res.status(200).send(newContact);
 })
 
 module.exports = router;
