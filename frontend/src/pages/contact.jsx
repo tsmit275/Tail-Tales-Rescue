@@ -22,7 +22,7 @@ function Contact(){
             message
         }
 
-        fetch('http://localhost:3001/api/contact/',{
+        fetch('https://temptails.onrender.com/api/contact/',{
             method: 'POST',
             headers: {
                 Accept: 'application.json',
