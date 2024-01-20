@@ -1,23 +1,14 @@
 {
   "development": {
-    "username": "tailtales",
-    "password": "tailtales",
-    "database": "Tailtales",
-    "host": "localhost",
+    "url": "postgres://tails:xMI5Qnv9HgLTf0ESyYDI0FcKVfvfnJJV@dpg-cmljrjn109ks7392ttv0-a/tails",
     "dialect": "postgres"
   },
   "test": {
-    "username": "tailtales",
-    "password": "tailtales",
-    "database": "Tailtales",
-    "host": "localhost",
+    "url": "postgres://tails:xMI5Qnv9HgLTf0ESyYDI0FcKVfvfnJJV@dpg-cmljrjn109ks7392ttv0-a/tails",
     "dialect": "postgres"
   },
   "production": {
-    "username": "tailtales",
-    "password": "tailtales",
-    "database": "Tailtales",
-    "host": "localhost",
+    "url": "postgres://tails:xMI5Qnv9HgLTf0ESyYDI0FcKVfvfnJJV@dpg-cmljrjn109ks7392ttv0-a/tails",
     "dialect": "postgres"
   }
 }
