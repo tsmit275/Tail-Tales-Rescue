@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "tailtales",
+    "password": "tailtales",
+    "database": "Tailtales",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "tailtales",
+    "password": "tailtales",
+    "database": "Tailtales",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "tailtales",
+    "password": "tailtales",
+    "database": "Tailtales",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
