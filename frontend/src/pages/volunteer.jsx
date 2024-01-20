@@ -9,7 +9,7 @@ function Volunteer(){
     const [aboutYou, setAboutYou] = useState('');
 
     const clearForm = () => {
-        setFirstName('');
+        setFirstName('')
         setLastName('')
         setEmail('')
         setPhoneNumber('')

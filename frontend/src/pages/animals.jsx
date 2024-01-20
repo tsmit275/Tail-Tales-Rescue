@@ -14,10 +14,9 @@ const Animals = ({ animal = '' }) => {
 
     return (
         <div className="d-flex flex-wrap justify-content-space-between">
-            {data && data.map(({ id, name, breed, gender, picture01, picture02 }) => (
-                <a className="card" href={`/animal/${id}`}>
+            {data && data.map(({ id, name, breed, gender, picture01 }) => (
+                <a key={id} className="card" href={`/animal/${id}`}>
                     <div><img alt="Picture01" src={picture01} /></div>
-                    <div><img alt="Picture02" src={picture02} /></div>
                     <p>Name: {name}</p>
                     <p>Gender: {gender}</p>
                     <p>Breed: {breed}</p>
