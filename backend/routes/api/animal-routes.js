@@ -17,10 +17,3 @@ router.get('/:id', async (req, res)=> {
 
     return res.status(200).send(foundAnimal);
 })
-
-// router.get('/cats', async (req, res) => {
-//     const allCats = await Animals.find({type: "cat"});
-//     return res.status(200).send(allCats);
-// })
-
-module.exports = router;
