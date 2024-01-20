@@ -48,7 +48,7 @@ const router = createBrowserRouter([
     element: <Animals animals="exotics"/>,
   },
   {
-    path: "/animals/:id",
+    path: "/animal/:id",
     element: <Pet />,
   },
   {

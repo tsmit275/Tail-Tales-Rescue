@@ -16,7 +16,7 @@ const Pet = () => {
         description: '',
     })
     useEffect(() => {
-        fetch('/animals/' + id)
+        fetch('http://localhost:3001/api/animals/' + id)
             .then(data => data.json())
             .then(json => setData(json))
     }, [])
@@ -24,12 +24,11 @@ const Pet = () => {
     if (data.id){
         return (
         <>
-            <h1>{data.name} ({data.sex})</h1>
-            <h2>{data.age} years old</h2>
+            <h1>{data.name} ({data.gender})</h1>
+            <h2>{data.breed}</h2>
             <div>
-                <img src={data.photo} alt={data.name} />
+                <img src={data.picture01} alt={data.name} />
             </div>
-            <p>{data.description}</p>
         </>
     )
     } else {

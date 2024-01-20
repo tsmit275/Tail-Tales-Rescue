@@ -17,4 +17,3 @@ db.adoption = require('./adoption')(sequelize, Sequelize);
 db.volunteer = require('./volunteer')(sequelize, Sequelize);
 db.contact = require('./contact')(sequelize, Sequelize);
 
-module.exports = db;

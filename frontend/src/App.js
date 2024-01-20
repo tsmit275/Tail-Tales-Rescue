@@ -1,22 +1,36 @@
-import logo from './logo.svg';
+import {Link, Route, Routes} from "react-router-dom";
+import Home from "./pages/home";
+import Adopt from "./pages/adopt";
+import Volunteer from "./pages/volunteer";
+import Animals from "./pages/animals";
+import Pet from "./pages/pet";
+import Contact from "./pages/contact";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header>
+        <h1 className="store-name">Tail Tales Rescue</h1>
+        <nav>
+          <ul>
+            <li><img className="wagging-tails" src="https://www.kindpng.com/picc/m/650-6502332_dog-tails-wagging-cartoon-hd-png-download.png" alt="keep tails wagging"/></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/animals">Animals</Link></li>
+            <li><Link to="/adopt">Adopt</Link></li>
+            <li><Link to="/volunteer">Volunteer</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
+            {/* <button className="btn btn-primary">Log In</button> */}
+          </ul>
+      </nav>
+    </header>
+    <Routes>
+      <Route path={"/"} element={<Home />} />
+      <Route path={"/adopt"} element={<Adopt />} />
+      <Route path={"/volunteer"} element={<Volunteer />} />
+      <Route path={"/animals"} element={<Animals />} />
+      <Route path={"/animal/:id"} element={<Pet />} />
+      <Route path={"/contact"} element={<Contact />} />
+    </Routes>
     </div>
   );
 }
