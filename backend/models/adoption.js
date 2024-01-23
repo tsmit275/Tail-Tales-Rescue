@@ -44,6 +44,10 @@ module.exports = (sequelize) => {
         exotic: {
             type: DataTypes.STRING,
         },
+        approved: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false
+        },
     });
 
     return Adoption;

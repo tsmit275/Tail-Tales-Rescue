@@ -1,36 +1,26 @@
-/* PetGrid.css */
-.pet-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px; /* Space between grid items */
+.animal-card-img {
+    height: 400px; /* Adjust as needed */
+    object-fit: cover;
 }
 
-.pet-card {
+.card-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 30%; /* Each card takes up 30% of the container width */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a shadow for depth */
-    padding: 10px;
-    border-radius: 8px; /* Optional: for rounded corners */
+    justify-content: space-between;
+    height: calc(100% - 200px); /* Adjust based on the image height */
 }
 
-.pet-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 8px; /* Optional: for rounded image corners */
+.card-title {
+    margin-bottom: auto; /* Pushes everything else to the bottom */
 }
 
-.pet-info {
-    text-align: center;
+/* Additional styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
-.pet-info h3 {
-    margin: 10px 0 5px;
-}
-
-.pet-info p {
-    margin: 0;
+.card:hover {
+    transform: translateY(-5px);
 }

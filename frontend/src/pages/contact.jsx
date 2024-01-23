@@ -1,4 +1,3 @@
-// This form is for viewers to reach out to rescue representatives with questions etc.
 import React, {useState} from "react";
 
 function Contact(){
@@ -22,7 +21,7 @@ function Contact(){
             message
         }
 
-        fetch('https://temptails.onrender.com/api/contact/',{
+        fetch(`${process.env.REACT_APP_FETCH_URL}/api/contact/`,{
             method: 'POST',
             headers: {
                 Accept: 'application.json',
@@ -42,7 +41,7 @@ function Contact(){
     return(
             <main className="container">
             <h2>Contact Us</h2>
-            <p>We are so happy you've taken an interest in our rescue! Let us know what questions you have, and we will be back in touch within 24-48 hours.</p>
+            <div>We are so happy you've taken an interest in our rescue! Let us know what questions you have, and we will be back in touch within 24-48 hours.</div>
                 <div className="row">
                     <div className="form-group col-sm-4">
                         <label className="form-label">First Name:</label>

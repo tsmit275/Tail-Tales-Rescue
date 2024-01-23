@@ -1,0 +1,9 @@
+.table-min-height {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-min-height .table-responsive {
+    min-height: 800px !important;
+}

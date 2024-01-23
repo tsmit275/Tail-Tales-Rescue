@@ -14,6 +14,12 @@ module.exports = (sequelize) => {
         breed: {
             type: DataTypes.STRING,
         },
+        age: {
+            type: DataTypes.INTEGER,
+        },
+        description: {
+            type: DataTypes.TEXT,
+        },
         picture01: {
             type: DataTypes.STRING,
         },
