@@ -1,4 +1,3 @@
-// This form is for volunteer candidates to submit their interest
 import React, {useState} from "react";
 
 function Volunteer(){
@@ -25,7 +24,7 @@ function Volunteer(){
             aboutYou
         }
 
-        fetch('https://temptails.onrender.com/api/volunteer/',{
+        fetch(`${process.env.REACT_APP_FETCH_URL}/api/volunteer/`,{
             method: 'POST',
             headers: {
                 Accept: 'application.json',
@@ -45,7 +44,7 @@ function Volunteer(){
     return(
             <main className="container">
             <h2>Volunteer Inquiry</h2>
-            <p>We greatly appreciate all the animal lovers who have given their time to help. Let us know you're interested in helping our animals find FURever homes.</p>
+            <div>We greatly appreciate all the animal lovers who have given their time to help. Let us know you're interested in helping our animals find FURever homes.</div>
                 <div className="row">
                     <div className="form-group col-sm-4">
                         <label className="form-label">First Name:</label>

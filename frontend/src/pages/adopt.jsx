@@ -1,4 +1,3 @@
-// This form is so a person can submit an application to adopt a pet
 import React, {useState} from "react";
 
 function Adopt(){
@@ -49,7 +48,7 @@ function Adopt(){
             exotic
         }
 
-        fetch('https://temptails.onrender.com/api/adoption/',{
+        fetch(`${process.env.REACT_APP_FETCH_URL}/api/adoption/`,{
             method: 'POST',
             headers: {
                 Accept: 'application.json',
@@ -69,7 +68,7 @@ function Adopt(){
     return(
             <main className="container">
             <h2>Apply for Animal Adoption</h2>
-            <p>We greatly appreciate all the animal lovers who have given their time to help. Let us know you're interested in helping our animals find FURever homes.</p>
+            <div>We greatly appreciate all the animal lovers who have given their time to help. Let us know you're interested in helping our animals find FURever homes.</div>
                 <div className="row">
                     <div className="form-group col-sm-4">
                         <label className="form-label">First Name:</label>
